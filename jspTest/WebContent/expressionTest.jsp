@@ -14,7 +14,7 @@
 }
 %>
 <%
-	String str="1부터 100까지읩 합";
+	String str="1부터 100까지의 합";
 %>
 <title>Insert title here</title>
 </head>
