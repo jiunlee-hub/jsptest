@@ -9,8 +9,10 @@
 		Cookie cookies[] =request.getCookies();
 		
 		for(int i=0; i<cookies.length; i++) {
+			if(cookies[i].getName().equals("name")) {
 			name = cookies[i].getName();
 			value= cookies[i].getValue();
+			}
 		}
 	}
 %>
